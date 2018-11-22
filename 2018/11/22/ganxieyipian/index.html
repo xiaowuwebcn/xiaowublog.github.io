@@ -245,12 +245,12 @@ setTimeout(generateToc, 1000);
   <div id="vcomments"></div>
 
   <script defer>
-  if( false ) {
+  if( true ) {
     let path = getRealPath()
     new Valine({
       el: "#vcomments",
-      appId: "",
-      appKey: "",
+      appId: "2qkPVJJGnn21cImGWjqgLL2v-gzGzoHsz",
+      appKey: "9dhScUcVTFvtyx7T8s7HTbyn",
       notify: false,
       verify: false,
       avatar: "robohash",
@@ -263,7 +263,7 @@ setTimeout(generateToc, 1000);
   <script defer>
 const valineAPI = (() => {
   try {
-    AV.init("", "");
+    AV.init("2qkPVJJGnn21cImGWjqgLL2v-gzGzoHsz", "9dhScUcVTFvtyx7T8s7HTbyn");
   } catch(error) {}
   const isExist = (identity) => {
     identity = identity || getRealPath();
@@ -378,7 +378,7 @@ const calcAndWriteTimes = () => {
   }).catch(error => console.log(error.message))
 }
 
-if(false){
+if(true){
   calcAndWriteTimes();
 }
 </script>

@@ -13,7 +13,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   
-    <meta name="keywords" content="随笔,B站,Sofronio,...,">
+    <meta name="keywords" content="随笔,...,B站,Sofronio,">
   
 
   
@@ -203,6 +203,12 @@
           
             
             <span class="span--tag">
+              <a href="/tags/">
+                #...
+              </a>
+            </span>
+            
+            <span class="span--tag">
               <a href="/tags/B站/">
                 #B站
               </a>
@@ -211,12 +217,6 @@
             <span class="span--tag">
               <a href="/tags/Sofronio/">
                 #Sofronio
-              </a>
-            </span>
-            
-            <span class="span--tag">
-              <a href="/tags/">
-                #...
               </a>
             </span>
             
@@ -249,12 +249,12 @@ setTimeout(generateToc, 1000);
   <div id="vcomments"></div>
 
   <script defer>
-  if( false ) {
+  if( true ) {
     let path = getRealPath()
     new Valine({
       el: "#vcomments",
-      appId: "",
-      appKey: "",
+      appId: "2qkPVJJGnn21cImGWjqgLL2v-gzGzoHsz",
+      appKey: "9dhScUcVTFvtyx7T8s7HTbyn",
       notify: false,
       verify: false,
       avatar: "robohash",
@@ -267,7 +267,7 @@ setTimeout(generateToc, 1000);
   <script defer>
 const valineAPI = (() => {
   try {
-    AV.init("", "");
+    AV.init("2qkPVJJGnn21cImGWjqgLL2v-gzGzoHsz", "9dhScUcVTFvtyx7T8s7HTbyn");
   } catch(error) {}
   const isExist = (identity) => {
     identity = identity || getRealPath();
@@ -382,7 +382,7 @@ const calcAndWriteTimes = () => {
   }).catch(error => console.log(error.message))
 }
 
-if(false){
+if(true){
   calcAndWriteTimes();
 }
 </script>
