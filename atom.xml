@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.xiaowuweb.cn/"/>
-  <updated>2018-11-27T10:09:58.341Z</updated>
+  <updated>2018-12-01T07:08:25.865Z</updated>
   <id>https://blog.xiaowuweb.cn/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>转载：利用代码托管平台与Hexo搭建个人博客</title>
+    <link href="https://blog.xiaowuweb.cn/2018/12/01/hexo-dajian/"/>
+    <id>https://blog.xiaowuweb.cn/2018/12/01/hexo-dajian/</id>
+    <published>2018-12-01T06:59:26.251Z</published>
+    <updated>2018-12-01T07:08:25.865Z</updated>
+    
+    <content type="html"><![CDATA[<p>转载：利用代码托管平台与Hexo搭建个人博客，这个是小吴博客做的视频教程，感觉还不错，转载一篇哈，毕竟自己录制和制作的视频教程，是真心不容易的。</p><a id="more"></a><p>转载：利用代码托管平台与Hexo搭建个人博客，这个是小吴博客做的视频教程，感觉还不错，转载一篇哈，毕竟自己录制和制作的视频教程，是真心不容易的。<br>视频地址：<a href="https://www.bilibili.com/video/av36175038" title="利用代码托管平台与Hexo搭建个人博客" target="_blank" rel="noopener">https://www.bilibili.com/video/av36175038</a></p><p><iframe src="//player.bilibili.com/player.html?aid=36175038&cid=63506924&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></p><h2 id="搭建本地环境"><a href="#搭建本地环境" class="headerlink" title="搭建本地环境"></a>搭建本地环境</h2><p>安装Git<br>安装node.js</p><h2 id="安装和初始化博客框架hexo"><a href="#安装和初始化博客框架hexo" class="headerlink" title="安装和初始化博客框架hexo"></a>安装和初始化博客框架hexo</h2><p>安装hexo博客框架 npm install hexo -g<br>hexo是否安装成功 hexo -v<br>初始化本地文件夹 hexo init<br>安装组件 npm install<br>本地生成并预览 localhost:4000 Ctrl+C停止预览 hexo s -g<br>清除本地缓存 hexo clean<br>选择代码托管平台部署博客<br>– 常见的代码托管平台 github coding gitlab 等</p><h2 id="注册账号"><a href="#注册账号" class="headerlink" title="注册账号"></a>注册账号</h2><p>创建博客项目<br>将git绑定用户名和邮箱<br>git config –global user.name “name”<br>git config –global user.email “<a href="mailto:xxx@qq.com" target="_blank" rel="noopener">xxx@qq.com</a>“</p><h2 id="绑定SSH"><a href="#绑定SSH" class="headerlink" title="绑定SSH"></a>绑定SSH</h2><p>生成SSH文件 ssh-keygen -t rsa -C “<a href="mailto:xxx@qq.com" target="_blank" rel="noopener">xxx@qq.com</a>”<br>添加SSH秘钥到代码托管平台上<br>测试添加ssh是否成功 ssh -T <a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a><br>– hexo配置部署</p><pre><code>deploy:  type: gitrepo: github@github.com:xx/xxx.github.io.git</code></pre><h2 id="安装部署插件-npm-install-hexo-deployer-git-–save"><a href="#安装部署插件-npm-install-hexo-deployer-git-–save" class="headerlink" title="安装部署插件 npm install hexo-deployer-git –save"></a>安装部署插件 npm install hexo-deployer-git –save</h2><p>部署上传 hexo d -g</p><p>github用户名.github.io访问博客</p><hr><p>小吴博客：<a href="https://www.wushile.top/" title="小吴博客" target="_blank" rel="noopener">https://www.wushile.top/</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;转载：利用代码托管平台与Hexo搭建个人博客，这个是小吴博客做的视频教程，感觉还不错，转载一篇哈，毕竟自己录制和制作的视频教程，是真心不容易的。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="随笔" scheme="https://blog.xiaowuweb.cn/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="hexo" scheme="https://blog.xiaowuweb.cn/tags/hexo/"/>
+    
+      <category term="github" scheme="https://blog.xiaowuweb.cn/tags/github/"/>
+    
+  </entry>
   
   <entry>
     <title>日文歌《僕らの手には何もないけど》</title>
