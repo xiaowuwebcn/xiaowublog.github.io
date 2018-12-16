@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.xiaowuweb.cn/"/>
-  <updated>2018-12-16T09:26:57.150Z</updated>
+  <updated>2018-12-16T10:55:01.706Z</updated>
   <id>https://blog.xiaowuweb.cn/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>购买虚拟主机-建站篇三</title>
+    <link href="https://blog.xiaowuweb.cn/2018/12/16/jianzhan-hosting/"/>
+    <id>https://blog.xiaowuweb.cn/2018/12/16/jianzhan-hosting/</id>
+    <published>2018-12-16T10:05:46.884Z</published>
+    <updated>2018-12-16T10:55:01.706Z</updated>
+    
+    <content type="html"><![CDATA[<p>  域名购买了，那么建站的三大件的主机也需要搞一个了，不然光有一个域名也没啥用处么。对不对？<br><a id="more"></a><br>  域名购买了，那么建站的三大件的主机也需要搞一个了，不然光有一个域名也没啥用处么。对不对？</p><p>  但是选择主机这块，我们首先要说明一下，那就是主机这个选择，是需要避过一些坑的。《踩坑踩的我内牛满面的哭啊！这个以后有机会在说这些坑》</p><p>  我这里是准备用的是《<a href="https://my.laoxuehost.com/aff.php?aff=9055" title="老薛主机" target="_blank" rel="noopener">老薛主机</a>》售卖的虚拟主机。打开老薛主机的官网：<a href="https://my.laoxuehost.com/aff.php?aff=9055" title="www.laoxuehost.com/" target="_blank" rel="noopener">www.laoxuehost.com/</a>选择官网导航栏里《虚拟主机》选项。附图：</p><p>  <img src="/2018/12/16/jianzhan-hosting/host.jpg" alt="购买虚拟主机-建站篇三"></p><p>  老薛主机这里有提供有：香港空间，美国空间，日本空间。选择你相中的虚拟主机去购买。《PS：香港空间-是离咱们大天朝最近的一个服务器，访问速度会比较快。》我个人选择的是《香港空间》。选定之后，把网页拉倒最下方，哪里有一个《立即购买》的按钮，并且点击。</p><p>  然后会有一个让你填写域名的页面出现，因为我们上一篇文章中已经有买过了域名了。所以这时候我们把购买的域名就要输入这个页面里了，注意”这个输入框里，前面写域名的前半部分，后面写域名的后缀”附图：</p><p>  <img src="/2018/12/16/jianzhan-hosting/host1.jpg" alt="购买虚拟主机-建站篇三"></p><p>  再然后就是确认一下你所需要的配置信息，如果没有错误，就点击《继续》按钮，并且去付款，就好了。附图：</p><p>   <img src="/2018/12/16/jianzhan-hosting/host3.jpg" alt="购买虚拟主机-建站篇三"></p><p>  这样虚拟主机就购买好了。</p><hr><p>  这里来说一下，购买虚拟主机的那些我踩过的坑！<br>  话说当时我在学习建站这方面东西的时候，是想着能省则省的想法去学习的，这想法本身是没有错误的，但是我错就错在了，谁便宜我用谁的，所以导致出现了以下的状况，</p><p>  1.自己搭建的网站，经常不能访问，意思就是：经常的打不开，不管是前台和后台都是打不开的状态~~~~</p><p>  2.就是不管出现任何问题，你都是联系不上当初购买的哪家主机商的工作人员的。并且任何时候都联系不上的。想想那时候的抓狂的样子，现在都感觉自己很可笑。</p><p>  3.就算你联系上了主机商的工作人员，你的所遇到的问题，也是解决不了的。</p><p>  4.在你还正在为上述的问题锁烦恼的时候，特么的主机商跑路了·····</p><hr><p>  这就是我以前为了省钱所省出来的麻烦事，从哪之后我也明白了，找虚拟主机就找那些，让众多站长一致推荐的虚拟主机提供商。这样的主机商最起码不会轻易的跑路，遇到的问题也能及时的解决。</p><p>  好了购买主机我暂时先写到这里吧。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;  域名购买了，那么建站的三大件的主机也需要搞一个了，不然光有一个域名也没啥用处么。对不对？&lt;br&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="建站" scheme="https://blog.xiaowuweb.cn/categories/%E5%BB%BA%E7%AB%99/"/>
+    
+    
+      <category term="主机" scheme="https://blog.xiaowuweb.cn/tags/%E4%B8%BB%E6%9C%BA/"/>
+    
+  </entry>
   
   <entry>
     <title>买一个域名-建站篇二</title>
@@ -250,11 +272,11 @@
       <category term="随笔" scheme="https://blog.xiaowuweb.cn/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
-      <category term="..." scheme="https://blog.xiaowuweb.cn/tags//"/>
-    
       <category term="B站" scheme="https://blog.xiaowuweb.cn/tags/B%E7%AB%99/"/>
     
       <category term="Sofronio" scheme="https://blog.xiaowuweb.cn/tags/Sofronio/"/>
+    
+      <category term="..." scheme="https://blog.xiaowuweb.cn/tags//"/>
     
   </entry>
   
@@ -302,11 +324,11 @@
       <category term="科技" scheme="https://blog.xiaowuweb.cn/categories/%E7%A7%91%E6%8A%80/"/>
     
     
+      <category term="..." scheme="https://blog.xiaowuweb.cn/tags//"/>
+    
       <category term="阿里巴巴" scheme="https://blog.xiaowuweb.cn/tags/%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4/"/>
     
       <category term="张勇" scheme="https://blog.xiaowuweb.cn/tags/%E5%BC%A0%E5%8B%87/"/>
-    
-      <category term="..." scheme="https://blog.xiaowuweb.cn/tags//"/>
     
   </entry>
   
