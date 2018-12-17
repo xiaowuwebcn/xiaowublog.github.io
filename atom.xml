@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.xiaowuweb.cn/"/>
-  <updated>2018-12-16T10:55:01.706Z</updated>
+  <updated>2018-12-17T11:58:21.199Z</updated>
   <id>https://blog.xiaowuweb.cn/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>域名解析与主机绑定-建站篇四</title>
+    <link href="https://blog.xiaowuweb.cn/2018/12/17/jianzhan-jiexiyubangding/"/>
+    <id>https://blog.xiaowuweb.cn/2018/12/17/jianzhan-jiexiyubangding/</id>
+    <published>2018-12-17T11:07:01.396Z</published>
+    <updated>2018-12-17T11:58:21.199Z</updated>
+    
+    <content type="html"><![CDATA[<p>  在上两篇文章中我们已经分别购买了域名和虚拟主机。<br>  《<a href="https://blog.xiaowuweb.cn/2018/12/15/jianzhan-yuming/" title="买一个域名-建站篇二">买一个域名-建站篇二</a>》《<a href="https://blog.xiaowuweb.cn/2018/12/16/jianzhan-hosting/" title="购买虚拟主机-建站篇三">购买虚拟主机-建站篇三</a>》那么这一篇文章中我们就把域名解析到购买的主机上，和主机绑定域名。<br><a id="more"></a><br>  前言：在上两篇文章中我们已经分别购买了域名和虚拟主机。<br>  《<a href="https://blog.xiaowuweb.cn/2018/12/15/jianzhan-yuming/" title="买一个域名-建站篇二">买一个域名-建站篇二</a>》《<a href="https://blog.xiaowuweb.cn/2018/12/16/jianzhan-hosting/" title="购买虚拟主机-建站篇三">购买虚拟主机-建站篇三</a>》那么这一篇文章中我们就把域名解析到购买的主机上，并且让主机绑定我们购买的域名。使它成为一体，可以让我们实现可以在这上面建立我们要建立的网站。</p><h1 id="域名解析的说明。"><a href="#域名解析的说明。" class="headerlink" title="域名解析的说明。"></a>域名解析的说明。</h1><h2 id="什么是域名解析？"><a href="#什么是域名解析？" class="headerlink" title="什么是域名解析？"></a>什么是域名解析？</h2><p>  在域名注册商那里注册了域名之后如何才能看到自己的网站内容，用一个专业术语就叫“域名解析”。</p><p>  域名是为了方便记忆而专门建立的一套地址转换系统，要访问一台互联网上的服务器，最终还必须通过IP地址来实现，域名解析就是将域名重新转换为IP地址的过程。一个域名对应一个IP地址，一个IP地址可以对应多个域名；所以多个域名可以同时被解析到一个IP地址。</p><p>  解析过程，比如，一个域名为：xiaowuweb.top，是想看到这个现HTTP服务，如果要访问网站，就要进行解析，首先在域名注册商那里通过专门的DNS服务器解析到一个WEB服务器的一个固定IP上：211.214.1.XXX，然后，通过WEB服务器来接收这个域名，把xiaowuweb.top这个域名映射到这台服务器上。那么，输入xiaowuweb.top这个域名就可以实现访问网站内容了.即实现了域名解析的全过程；</p><p>  人们习惯记忆域名，但机器间互相只认IP地址，域名与IP地址之间是对应的，它们之间的转换工作称为域名解析，域名解析需要由专门的域名解析服务器来完成，整个过程是自动进行的。</p><h2 id="域名解析都有那些常用的解析？"><a href="#域名解析都有那些常用的解析？" class="headerlink" title="域名解析都有那些常用的解析？"></a>域名解析都有那些常用的解析？</h2><p>  1、A记录解析</p><p>  记录类型选择“A”；记录值填写空间商提供的主机IP地址；MX优先级不需要设置；TTL设置默认的3600即可。</p><p>  2、CNAME记录解析</p><p>  CNAME类型解析设置的方法和A记录类型基本是一样的，其中将记录类型修改为“CNAME”，并且记录值填写服务器主机地址即可。</p><p>  3、MX记录解析</p><p>  MX记录解析是做邮箱解析使用的。记录类型选择MX，线路类型选择通用或者同时添加三条线路类型为电信、网通、教育网的记录；记录值填写邮局商提供的服务器IP地址或别名地址；TTL设置默认的3600即可，MX优先级填写邮局提供商要求的数据，或是默认10，有多条MX记录的时候，优先级要设置不一样的数据。</p><h2 id="如何查看域名解析成功？"><a href="#如何查看域名解析成功？" class="headerlink" title="如何查看域名解析成功？"></a>如何查看域名解析成功？</h2><p>  通用顶级域名解析是2小时内生效，国家顶级域名解析24小时内生效。</p><p>  因为域名解析需要同步到DNS根服务器，而DNS根服务器会不定时刷，只有DNS根服务器刷新后域名才能正常访问，新增解析一般会在10分钟左右生效，最长不会超过24小时，修改解析时间会稍微延长。可以用ping命令来查看域名是否生效。点击开始菜单&gt;运行&gt;输入”CMD”&gt;敲回车键，进入 命令提示符窗口，输入”ping 您的域名”，如果红线部分为您主机的IP即解析成功。</p><h1 id="虚拟主机绑定域名的说明"><a href="#虚拟主机绑定域名的说明" class="headerlink" title="虚拟主机绑定域名的说明"></a>虚拟主机绑定域名的说明</h1><p>  域名绑定是指域名与主机（即某个服务器）的空间绑定,其实就是在域名注册查询上设置或者WEB服务器上设置，使一个域名被指导向一特定空间，访问者访问你的域名的时候就会打开你存放在该空间上的网页，简单来说其实就是把域名解析到服务器IP，然后在服务器上设置该域名有权限访问的过程。可以简单的这样理解：在一个文件系统中，文件名被绑定给文件。在DNS中，一个IP地址绑定一个URL。可以在IIS中使用相同端口，对不同域名进行相同ip地址的绑定。</p><p>  以上是域名的解析和主机的绑定的说明，那么我们现在进入实际操作。</p><hr><p>  首先打开我们域名的管理页面，因为我是在百度云购买的域名，我就打开百度云的域名管理页面：cloud.baidu.com</p><p>  依次找到域名的解析面板并且点击“添加解析”，并且添加“A记录解析”，填写我们购买的虚拟主机的ip地址，当填写完成后记得点击《确定》按钮。附图：</p><p>  <img src="/2018/12/17/jianzhan-jiexiyubangding/jiexi.jpg" alt="域名解析与主机绑定-建站篇四"></p><p>  添加解析是两次解析，一次是带有《www》的解析，一次是带有《@》的解析。附图：</p><p>  <img src="/2018/12/17/jianzhan-jiexiyubangding/jiexi1.jpg" alt="域名解析与主机绑定-建站篇四"></p><p>  解析填写完成后是有显示两条解析的消息，附图：</p><p>  <img src="/2018/12/17/jianzhan-jiexiyubangding/jiexi2.jpg" alt="域名解析与主机绑定-建站篇四"></p><p>  到这里我们域名解析就完成了。那么接下来就是主机绑定域名了。</p><p>  《PS：如果你是新手完全按照我写的“<a href="HTTPS://BLOG.XIAOWUWEB.CN/2018/12/16/JIANZHAN-HOSTING/" title="购买虚拟主机-建站篇三">购买虚拟主机-建站篇三</a>”这篇文章操作的话，那么以下的操作你是不需要去看的，因为这篇文章中在购买虚拟主机的时候，已经把主机绑定域名这个做完了。》</p><p>  打开我们购买的虚拟主机管理面板，并且找到我们购买的虚拟主机，附图：</p><p>  <img src="/2018/12/17/jianzhan-jiexiyubangding/zhuji.jpg" alt="域名解析与主机绑定-建站篇四"></p><p>  点击该虚拟主机的管理面板，因为这个管理面板使用的是《cPanel面板》可能和你们所使用的虚拟主机管理面板不一样。但是原理都是一样的，这个我感觉无所谓，</p><p>  然后打开cPanel面板中的“附加域”选项，附图：</p><p>  <img src="/2018/12/17/jianzhan-jiexiyubangding/zhuji1.jpg" alt="域名解析与主机绑定-建站篇四"></p><p>  然后吧我们已经购买的域名xiaowuweb.top  填写进去。并且点击《添加域》附图：</p><p>  <img src="/2018/12/17/jianzhan-jiexiyubangding/zhuji2.jpg" alt="域名解析与主机绑定-建站篇四"></p><p>  <img src="/2018/12/17/jianzhan-jiexiyubangding/zhuji3.jpg" alt="域名解析与主机绑定-建站篇四"></p><p>  那么到了这一步，域名的解析和主机绑定域名。都已经OK了。那么我们现在做完这一些，接下来就是稍等一会，等待解析生效。再然后就是接下来是上传我们的程序源码。就可以建立我们的网站啦。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;  在上两篇文章中我们已经分别购买了域名和虚拟主机。&lt;br&gt;  《&lt;a href=&quot;https://blog.xiaowuweb.cn/2018/12/15/jianzhan-yuming/&quot; title=&quot;买一个域名-建站篇二&quot;&gt;买一个域名-建站篇二&lt;/a&gt;》《&lt;a href=&quot;https://blog.xiaowuweb.cn/2018/12/16/jianzhan-hosting/&quot; title=&quot;购买虚拟主机-建站篇三&quot;&gt;购买虚拟主机-建站篇三&lt;/a&gt;》那么这一篇文章中我们就把域名解析到购买的主机上，和主机绑定域名。&lt;br&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="建站" scheme="https://blog.xiaowuweb.cn/categories/%E5%BB%BA%E7%AB%99/"/>
+    
+    
+      <category term="域名解析" scheme="https://blog.xiaowuweb.cn/tags/%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/"/>
+    
+      <category term="主机绑定" scheme="https://blog.xiaowuweb.cn/tags/%E4%B8%BB%E6%9C%BA%E7%BB%91%E5%AE%9A/"/>
+    
+  </entry>
   
   <entry>
     <title>购买虚拟主机-建站篇三</title>
@@ -272,11 +296,11 @@
       <category term="随笔" scheme="https://blog.xiaowuweb.cn/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
+      <category term="..." scheme="https://blog.xiaowuweb.cn/tags//"/>
+    
       <category term="B站" scheme="https://blog.xiaowuweb.cn/tags/B%E7%AB%99/"/>
     
       <category term="Sofronio" scheme="https://blog.xiaowuweb.cn/tags/Sofronio/"/>
-    
-      <category term="..." scheme="https://blog.xiaowuweb.cn/tags//"/>
     
   </entry>
   
@@ -298,11 +322,11 @@
       <category term="群友" scheme="https://blog.xiaowuweb.cn/categories/%E7%BE%A4%E5%8F%8B/"/>
     
     
-      <category term="..." scheme="https://blog.xiaowuweb.cn/tags//"/>
-    
       <category term="hexo" scheme="https://blog.xiaowuweb.cn/tags/hexo/"/>
     
       <category term="about" scheme="https://blog.xiaowuweb.cn/tags/about/"/>
+    
+      <category term="..." scheme="https://blog.xiaowuweb.cn/tags//"/>
     
   </entry>
   
