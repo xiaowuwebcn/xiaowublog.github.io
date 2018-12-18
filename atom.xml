@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.xiaowuweb.cn/"/>
-  <updated>2018-12-18T06:12:54.196Z</updated>
+  <updated>2018-12-18T06:56:26.989Z</updated>
   <id>https://blog.xiaowuweb.cn/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://blog.xiaowuweb.cn/2018/12/18/jianzhan-chengxu/"/>
     <id>https://blog.xiaowuweb.cn/2018/12/18/jianzhan-chengxu/</id>
     <published>2018-12-18T05:18:15.005Z</published>
-    <updated>2018-12-18T06:12:54.196Z</updated>
+    <updated>2018-12-18T06:56:26.989Z</updated>
     
-    <content type="html"><![CDATA[<p>  在前几篇的文章中，分别写了买域名和虚拟主机，并且写了怎么解析和绑定。那么前期的东西已经搞好了，现在该安装建站的程序了。<br><a id="more"></a></p><p>  在前几篇的文章中，分别写了买域名和虚拟主机，并且写了怎么解析和绑定。那么前期的东西已经搞好了，现在该安装建站的程序了。</p><h2 id="建站程序是什么？"><a href="#建站程序是什么？" class="headerlink" title="建站程序是什么？"></a>建站程序是什么？</h2><p>  我利用我了解的知识来给科普那么一下子。如果不对你也拿我没招，是不？</p><p>  不同的建站程序对应的网站表现形式也不一样，建网站时建站程序的选择取决于我们要做的网站类型，比如有的网站是个人博客类型的，有的网站是以图片为主，有的网站则是以论坛形式展现的，所以每个不同类型的网站所用的建站程序都不一定相同，虽然同一个程序可以做出许多不同风格的网站，但是毫不例外的，每个建站程序都有其最适合的网站风格。本文主要说下建网站的时候如何选择最合适的建站程序。</p><p>  自己建网站时通常包含的网站类型大致可以分为博客、cms、论坛、商城等，当然除此之外还有许多大型网站，在这里我们主要针对于自己制作网站时候的程序选择，所以对大型网站就先不讨论，下面会根据这些不同类型的网站分别讨论最合适的建站程序。</p><p>  博客类型：WordPress</p><p>  CMS内容管理系统：dedecms 帝国CMS WordPress</p><p>  论坛类型：discus </p><p>  商城类型：ecshop</p><p>  以上是大部分选择的开源系统，但是我呢打算用的是WordPress。这是因为全世界的博客网站，差不多有百分之二十五都是用WordPress来搭建。《俗话说：随大流不挨揍，我也是本着这个这么一个心态用的WordPress》</p><p>  好了不吹牛逼了。来点正经的。说说我为什么选择WordPress来搭建吧。</p><p>  1 、容易上手，在使用wordpress一个月的时候，对代码一窍不通的我能够写出cms形式的主题，我的css知识就是在使用wordpress过程中学会的。</p><p>  2、 灵活强大无语伦比的的主题系统。wordpress的主题文件是php，用函数执行，所有借助wordpress强大的函数系统，wordpress几乎可以制作出任何的网站。</p><p>  3、 统一的链接管理功能;如果主机支持，网站的链接形式完全自定义。</p><p>  4 、万计的插件。我想没有那个系统的插件有wordpress的多，扩张性超级强。</p><p>  5、 TrackBack 和 Pingback 的功能。向搜索引擎ping，快速收录，我的一个wordpress的站文章发布马上收录。</p><p>  6、 page系统，这个系统很有用，可以完成任何独立页面。</p><p>  7、 意思就是wordpress是一个非常强大的建站程序，并且一直在更新中，比付费的建站系统还好用。</p><hr><p>  好了wordpress的情况基本是介绍完了，那么我们来进入实践。去安装wordpress。</p><p>  首先说明一下，因为我购买的主机是cPanel管理面板，所以我这里省去了，上传下载的麻烦。</p><p>  打开虚拟主机管理面板-cPanel面板</p><p>  找到cPanel面板的《wordpress》并且点击进去。附图：<br><img src="/2018/12/18/jianzhan-chengxu/wordpress.jpg" alt="wordpress程序的简介与搭建-建站篇五"></p><p>  之后再点击《install new》按钮，附图：<br><img src="/2018/12/18/jianzhan-chengxu/wordpress1.jpg" alt="wordpress程序的简介与搭建-建站篇五"></p><p>  之后就是填写一下，你的网站名称和这个网站是干什么的，至于怎么填写，你自己看着办，但是有以下几点是我们需要注意的就是：我们自己创建的管理账户和密码，还有填写的邮箱地址，附图：<br><img src="/2018/12/18/jianzhan-chengxu/wordpress2.jpg" alt="wordpress程序的简介与搭建-建站篇五"><br><img src="/2018/12/18/jianzhan-chengxu/wordpress3.jpg" alt="wordpress程序的简介与搭建-建站篇五"></p><p>  稍微等待几十秒，就会发现已经搭建完成了。附图：<br><img src="/2018/12/18/jianzhan-chengxu/wordpress4.jpg" alt="wordpress程序的简介与搭建-建站篇五"></p>]]></content>
+    <content type="html"><![CDATA[<p>  在前几篇的文章中，分别写了买域名和虚拟主机，并且写了怎么解析和绑定。那么前期的东西已经搞好了，现在该安装建站的程序了。<br><a id="more"></a></p><p>  在前几篇的文章中，分别写了买域名和虚拟主机，并且写了怎么解析和绑定。那么前期的东西已经搞好了，现在该安装建站的程序了。</p><h2 id="建站程序是什么？"><a href="#建站程序是什么？" class="headerlink" title="建站程序是什么？"></a>建站程序是什么？</h2><p>  我利用我了解的知识来给科普那么一下子。如果不对你也拿我没招，是不？</p><p>  不同的建站程序对应的网站表现形式也不一样，建网站时建站程序的选择取决于我们要做的网站类型，比如有的网站是个人博客类型的，有的网站是以图片为主，有的网站则是以论坛形式展现的，所以每个不同类型的网站所用的建站程序都不一定相同，虽然同一个程序可以做出许多不同风格的网站，但是毫不例外的，每个建站程序都有其最适合的网站风格。本文主要说下建网站的时候如何选择最合适的建站程序。</p><p>  自己建网站时通常包含的网站类型大致可以分为博客、cms、论坛、商城等，当然除此之外还有许多大型网站，在这里我们主要针对于自己制作网站时候的程序选择，所以对大型网站就先不讨论，下面会根据这些不同类型的网站分别讨论最合适的建站程序。</p><p>  博客类型：WordPress</p><p>  CMS内容管理系统：dedecms 帝国CMS WordPress</p><p>  论坛类型：discus </p><p>  商城类型：ecshop</p><p>  以上是大部分选择的开源系统，但是我呢打算用的是WordPress。这是因为全世界的博客网站，差不多有百分之二十五都是用WordPress来搭建。《俗话说：随大流不挨揍，我也是本着这个这么一个心态用的WordPress》</p><p>  好了不吹牛逼了。来点正经的。说说我为什么选择WordPress来搭建吧。</p><p>  1 、容易上手，在使用wordpress一个月的时候，对代码一窍不通的我能够写出cms形式的主题，我的css知识就是在使用wordpress过程中学会的。</p><p>  2、 灵活强大无语伦比的的主题系统。wordpress的主题文件是php，用函数执行，所有借助wordpress强大的函数系统，wordpress几乎可以制作出任何的网站。</p><p>  3、 统一的链接管理功能;如果主机支持，网站的链接形式完全自定义。</p><p>  4 、万计的插件。我想没有那个系统的插件有wordpress的多，扩张性超级强。</p><p>  5、 TrackBack 和 Pingback 的功能。向搜索引擎ping，快速收录，我的一个wordpress的站文章发布马上收录。</p><p>  6、 page系统，这个系统很有用，可以完成任何独立页面。</p><p>  7、 意思就是wordpress是一个非常强大的建站程序，并且一直在更新中，比付费的建站系统还好用。</p><hr><p>  好了wordpress的情况基本是介绍完了，那么我们来进入实践。去安装wordpress。</p><p>  首先说明一下，因为我购买的主机是cPanel管理面板，所以我这里省去了，上传下载的麻烦。</p><p>  打开虚拟主机管理面板-cPanel面板</p><p>  找到cPanel面板的《wordpress》并且点击进去。附图：<br><img src="/2018/12/18/jianzhan-chengxu/wordpress.jpg" alt="wordpress程序的简介与搭建-建站篇五"></p><p>  之后再点击《install new》按钮，附图：<br><img src="/2018/12/18/jianzhan-chengxu/wordpress1.jpg" alt="wordpress程序的简介与搭建-建站篇五"></p><p>  之后就是填写一下，你的网站名称和这个网站是干什么的，至于怎么填写，你自己看着办，但是有以下几点是我们需要注意的就是：我们自己创建的管理账户和密码，还有填写的邮箱地址，附图：<br><img src="/2018/12/18/jianzhan-chengxu/wordpress2.jpg" alt="wordpress程序的简介与搭建-建站篇五"><br><img src="/2018/12/18/jianzhan-chengxu/wordpress3.jpg" alt="wordpress程序的简介与搭建-建站篇五"></p><p>  稍微等待几十秒，就会发现已经搭建完成了。附图：<br><img src="/2018/12/18/jianzhan-chengxu/wordpress4.jpg" alt="wordpress程序的简介与搭建-建站篇五"></p><p>  再然后就可以打开咱们搭建网站：<a href="https://www.xiaowuweb.top" title="小五建站教程演示站" target="_blank" rel="noopener">www.xiaowuweb.top</a> 查看一下效果了。</p>]]></content>
     
     <summary type="html">
     
@@ -320,11 +320,11 @@
       <category term="随笔" scheme="https://blog.xiaowuweb.cn/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
+      <category term="..." scheme="https://blog.xiaowuweb.cn/tags//"/>
+    
       <category term="B站" scheme="https://blog.xiaowuweb.cn/tags/B%E7%AB%99/"/>
     
       <category term="Sofronio" scheme="https://blog.xiaowuweb.cn/tags/Sofronio/"/>
-    
-      <category term="..." scheme="https://blog.xiaowuweb.cn/tags//"/>
     
   </entry>
   
@@ -346,9 +346,9 @@
       <category term="群友" scheme="https://blog.xiaowuweb.cn/categories/%E7%BE%A4%E5%8F%8B/"/>
     
     
-      <category term="hexo" scheme="https://blog.xiaowuweb.cn/tags/hexo/"/>
-    
       <category term="..." scheme="https://blog.xiaowuweb.cn/tags//"/>
+    
+      <category term="hexo" scheme="https://blog.xiaowuweb.cn/tags/hexo/"/>
     
       <category term="about" scheme="https://blog.xiaowuweb.cn/tags/about/"/>
     
@@ -372,11 +372,11 @@
       <category term="科技" scheme="https://blog.xiaowuweb.cn/categories/%E7%A7%91%E6%8A%80/"/>
     
     
-      <category term="..." scheme="https://blog.xiaowuweb.cn/tags//"/>
-    
       <category term="阿里巴巴" scheme="https://blog.xiaowuweb.cn/tags/%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4/"/>
     
       <category term="张勇" scheme="https://blog.xiaowuweb.cn/tags/%E5%BC%A0%E5%8B%87/"/>
+    
+      <category term="..." scheme="https://blog.xiaowuweb.cn/tags//"/>
     
   </entry>
   
