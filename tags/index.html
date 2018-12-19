@@ -439,7 +439,10 @@ document.querySelector(".back-to-top").addEventListener("click", backToTop, fals
   </body>
 
 </html>
-Top - step <= 0) {
+er = setInterval(() => {
+    scrollTop =
+      document.documentElement.scrollTop || document.body.scrollTop;
+    if (scrollTop - step <= 0) {
       document.documentElement.scrollTop = 0;
       document.body.scrollTop = 0;
       clearInterval(timer);

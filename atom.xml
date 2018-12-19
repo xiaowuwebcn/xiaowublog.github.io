@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.xiaowuweb.cn/"/>
-  <updated>2018-12-19T13:50:54.661Z</updated>
+  <updated>2018-12-19T14:28:35.558Z</updated>
   <id>https://blog.xiaowuweb.cn/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>wordpress优化-建站篇八</title>
+    <link href="https://blog.xiaowuweb.cn/2018/12/19/jianzhan-seo/"/>
+    <id>https://blog.xiaowuweb.cn/2018/12/19/jianzhan-seo/</id>
+    <published>2018-12-19T14:10:29.922Z</published>
+    <updated>2018-12-19T14:28:35.558Z</updated>
+    
+    <content type="html"><![CDATA[<p>  不知道是什么原因，我的上一篇文章竟然不显示。我也是醉了。但是没有关系，咱们还是有办法可以看的。在此附上地址：<a href="https://xiaowuwebcn.github.io/2018/12/19/jianzhan-themes1/" title="wordpress主题的汉化与设置-建站篇七" target="_blank" rel="noopener">wordpress主题的汉化与设置-建站篇七</a></p><a id="more"></a><p>  不知道是什么原因，我的上一篇文章竟然不显示。我也是醉了。但是没有关系，咱们还是有办法可以看的。在此附上地址：<a href="https://xiaowuwebcn.github.io/2018/12/19/jianzhan-themes1/" title="wordpress主题的汉化与设置-建站篇七" target="_blank" rel="noopener">wordpress主题的汉化与设置-建站篇七</a></p><p>  这一篇文章咱们主要说的是如何优化 <a href="http://www.xiaowuweb.top" target="_blank" rel="noopener">www.xiaowuweb.top</a> </p><p>  首先第一个就是链接的网址，附图：<br><img src="/2018/12/19/jianzhan-seo/seo.jpg" alt="wordpress优化-建站篇八"></p><p>  这个竟然会有这么多的无用的东西，坚决要干掉它。</p><p>  这个是需要打开网站的管理后台，在左侧找到《设置》里的“固定链接”。并且设置。</p><p>  这是我在网上搜的一些比较好的链接结构。</p><p>1、/%year%/%monthnum%/%day%/%postname%/</p><p>2、/%year%/%monthnum%/%postname%/</p><p>3、/%year%/%monthnum%/%day%/%postname%.html</p><p>4、/%year%/%monthnum%/%postname%.html</p><p>5、/%category%/%postname%.html</p><p>6、/%post_id%.html</p><p>7、/%post_id%/</p><p>8、/%postname%/</p><p>9、/%postname%.html</p><p>我自己更倾向于简短的，所以我选择了 第六个，也就是 /%post_id%.html 附图：<br><img src="/2018/12/19/jianzhan-seo/seo1.jpg" alt="wordpress优化-建站篇八"></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;  不知道是什么原因，我的上一篇文章竟然不显示。我也是醉了。但是没有关系，咱们还是有办法可以看的。在此附上地址：&lt;a href=&quot;https://xiaowuwebcn.github.io/2018/12/19/jianzhan-themes1/&quot; title=&quot;wordpress主题的汉化与设置-建站篇七&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;wordpress主题的汉化与设置-建站篇七
+&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="建站" scheme="https://blog.xiaowuweb.cn/categories/%E5%BB%BA%E7%AB%99/"/>
+    
+    
+      <category term="WordPress" scheme="https://blog.xiaowuweb.cn/tags/WordPress/"/>
+    
+      <category term="优化" scheme="https://blog.xiaowuweb.cn/tags/%E4%BC%98%E5%8C%96/"/>
+    
+  </entry>
+  
+  <entry>
     <title>wordpress主题的汉化与设置-建站篇七</title>
     <link href="https://blog.xiaowuweb.cn/2018/12/19/jianzhan-themes1/"/>
     <id>https://blog.xiaowuweb.cn/2018/12/19/jianzhan-themes1/</id>
     <published>2018-12-19T08:28:46.107Z</published>
-    <updated>2018-12-19T13:50:54.661Z</updated>
+    <updated>2018-12-19T14:12:21.502Z</updated>
     
     <content type="html"><![CDATA[<p>  如果你按照我前面的六篇文章，搭建网站的步骤操作下来后，会发现怎么都是英文，还有一个就是，并没有像上一篇文章说的那样啊，变化不大啊，那么这篇文章咱们就继续倒腾这个主题。</p><a id="more"></a><p>  如果你按照我前面的六篇文章，搭建网站的步骤操作下来后，会发现怎么都是英文，还有一个就是，并没有像上一篇文章说的那样啊，变化不大啊，那么这篇文章咱们就继续倒腾这个主题。</p><p>  首先打开网站的后台管理页面：<a href="http://www.xiaowuweb.top/wp-admin" target="_blank" rel="noopener">www.xiaowuweb.top/wp-admin</a> 找到左下角的《设置》按钮，并且根据下图的指针操作。附图：<br><img src="/2018/12/19/jianzhan-themes1/themes.jpg" alt="wordpress主题的汉化与设置-建站篇七"></p><p>  再然后就是找到《外观》选项里的《菜单》按钮，并且按照下图的指针操作，附图：</p><p> <img src="/2018/12/19/jianzhan-themes1/themes1.jpg" alt="wordpress主题的汉化与设置-建站篇七"></p><p>  这样在打开： <a href="http://www.xiaowuweb.top" target="_blank" rel="noopener">www.xiaowuweb.top</a> 查看一下，看看是不是样子变了。</p><hr><p>但是还有一个问题就是，都是英文，我如何让他变成中文。这时候就需要打开左侧的《页面》选项栏，附图：<br><img src="/2018/12/19/jianzhan-themes1/themes2.jpg" alt="wordpress主题的汉化与设置-建站篇七"><br>  来编辑页面，使它能够变成中文。因为这个是非常苦逼的操作。当然也是一个非常愉快的操作。这个操作是需要，每一个单独的页面都要去汉化它，所以会非常非常的慢，因为当你修改它的时候。会发现翻译是一种不存在的操作。因为这并不是靠翻译就能干的事。</p><p>  因为你正在一点一点的改变它。附图：<br><img src="/2018/12/19/jianzhan-themes1/themes3.jpg" alt="wordpress主题的汉化与设置-建站篇七"><br><img src="/2018/12/19/jianzhan-themes1/themes4.jpg" alt="wordpress主题的汉化与设置-建站篇七"></p><p>  在上面的两个图上看到有不同的地方， 所以修改的也是不一样的地方。这个可以在修改之后。点击网页的右侧《更新》按钮，然后查看一下。附图：<br><img src="/2018/12/19/jianzhan-themes1/themes5.jpg" alt="wordpress主题的汉化与设置-建站篇七"></p><hr><p>  这里一共要修改有多少呢？</p><p>  意思就是：只要是《页面》里创建的页面，都需要修改。附图：<br><img src="/2018/12/19/jianzhan-themes1/themes6.jpg" alt="wordpress主题的汉化与设置-建站篇七"></p><p>  好了，暂时这篇文章就写到这里吧。期待你边修改边骂娘的脸型。哈哈。</p><p>  到点了，我该去吃饭喽。</p><p>  这个到这里还是没有完呢。这只是建站的开始，所以建立一个用心的网站是非常非常苦逼的一个操作。</p><p>  期待下一篇文章吧。么么哒。嘿嘿</p>]]></content>
     
