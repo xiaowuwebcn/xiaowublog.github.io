@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.xiaowuweb.cn/"/>
-  <updated>2018-12-20T06:58:15.949Z</updated>
+  <updated>2018-12-20T13:51:15.949Z</updated>
   <id>https://blog.xiaowuweb.cn/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>建立网站的总结</title>
+    <link href="https://blog.xiaowuweb.cn/2018/12/20/jianzhan-zongjie/"/>
+    <id>https://blog.xiaowuweb.cn/2018/12/20/jianzhan-zongjie/</id>
+    <published>2018-12-20T13:34:54.826Z</published>
+    <updated>2018-12-20T13:51:15.949Z</updated>
+    
+    <content type="html"><![CDATA[<p>  我在这一篇中写一下，我对于网站建设的总结。</p><p>  本身我并不是专业建立网站的。所以会写不了那么的专业文章。所以会有很多很多遗漏的地方并没有去写。<br><a id="more"></a><br>  我在这一篇中写一下，我对于网站建设的总结。</p><p>  本身我并不是专业建立网站的。所以会写不了那么的专业文章。所以会有很多很多遗漏的地方并没有去写，在前期的《cPanel面板》操作，还有网站里的程序上传与下载等，这些都是没有去写的，还有一些建站的原理以及建站的思路。</p><p>  等等以上的问题，都没有去写入说明啊什么的，所以我发现我越写这样的文章越写不清楚了。所以也就干脆，直接停掉这类型的文章吧。</p><p>  其实后面还有很多需要捣鼓的东西，例如：关键词添加， 关键词优化，网站的收录，还有一些兼容行等《兼容行是指：电脑端和手机端的显示是否正常》。还有一些网站的权重以及网站的排名等，以及跟现在比较流行的APP去对接，还有的就是优化网站的打开速度《如：添加CDN等》。等等，还有一大堆事情是需要去搞的。这些都是需要一点一点的去弄的，但是关于以上方面的。我本人确实才疏学浅，也就不耽误看官您了。</p><p>  对了忘记说了，其实在最早建立网站的时候。并没有考虑建立这个网站的定位，</p><p>  当时就是脑门一热就开始写了，所以写的确实是比较随意的。</p><hr><p>这个就是我暂时的总结吧，再想起来什么的话，就在添加进来。</p><p>本篇完</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;  我在这一篇中写一下，我对于网站建设的总结。&lt;/p&gt;
+&lt;p&gt;  本身我并不是专业建立网站的。所以会写不了那么的专业文章。所以会有很多很多遗漏的地方并没有去写。&lt;br&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="建站" scheme="https://blog.xiaowuweb.cn/categories/%E5%BB%BA%E7%AB%99/"/>
+    
+    
+      <category term="建站" scheme="https://blog.xiaowuweb.cn/tags/%E5%BB%BA%E7%AB%99/"/>
+    
+  </entry>
   
   <entry>
     <title>wordpress优化-建站篇八</title>
@@ -394,11 +417,11 @@
       <category term="随笔" scheme="https://blog.xiaowuweb.cn/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
+      <category term="..." scheme="https://blog.xiaowuweb.cn/tags//"/>
+    
       <category term="B站" scheme="https://blog.xiaowuweb.cn/tags/B%E7%AB%99/"/>
     
       <category term="Sofronio" scheme="https://blog.xiaowuweb.cn/tags/Sofronio/"/>
-    
-      <category term="..." scheme="https://blog.xiaowuweb.cn/tags//"/>
     
   </entry>
   
@@ -420,11 +443,11 @@
       <category term="群友" scheme="https://blog.xiaowuweb.cn/categories/%E7%BE%A4%E5%8F%8B/"/>
     
     
-      <category term="..." scheme="https://blog.xiaowuweb.cn/tags//"/>
-    
       <category term="hexo" scheme="https://blog.xiaowuweb.cn/tags/hexo/"/>
     
       <category term="about" scheme="https://blog.xiaowuweb.cn/tags/about/"/>
+    
+      <category term="..." scheme="https://blog.xiaowuweb.cn/tags//"/>
     
   </entry>
   
@@ -475,32 +498,6 @@
       <category term="..." scheme="https://blog.xiaowuweb.cn/tags//"/>
     
       <category term="音乐" scheme="https://blog.xiaowuweb.cn/tags/%E9%9F%B3%E4%B9%90/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>我为什么选择hexo</title>
-    <link href="https://blog.xiaowuweb.cn/2018/11/18/my-hexo/"/>
-    <id>https://blog.xiaowuweb.cn/2018/11/18/my-hexo/</id>
-    <published>2018-11-18T15:15:16.374Z</published>
-    <updated>2018-11-22T06:41:06.978Z</updated>
-    
-    <content type="html"><![CDATA[<p>  一直一来都想弄一个博客，来记录自己想记录的地方，前前后后用过很多的程序，但是基本上都是只要搞成了样子就会放任不管了，从没有认认真真的去看待过自己建立博客的初衷。</p><a id="more"></a><p>  一直一来都想弄一个博客，来记录自己想记录的地方，前前后后用过很多的程序，但是基本上都是只要搞成了样子就会放任不管了，从没有认认真真的去看待过自己建立博客的初衷。所以我这几天好好的想了一下，我是为了什么而建立了一个博客，而我要用这个博客做什么！</p><p>  现在用了hexo搭建了这么一个博客，《应该说：这个博客是一种古老的手掌本的类型》来好好的记录一下自己想记录的东西，当然文字是最好的记录方式。</p><p>说说hexo的优点与缺点吧</p><h1 id="优点："><a href="#优点：" class="headerlink" title="- 优点："></a>- 优点：</h1><ol><li>个人博客的话，用hexo完全不需要去另外购买空间，可以托管到个github、coding等托管平台，免费提供的空间完全足够了，毕竟一篇文章顶天不过十几kb</li></ol><ol><li>简洁、快速、免维护。能省一事算一事。《尤其是不用在花钱弄那些主机或者服务器啦，这个才是重点》</li></ol><h1 id="缺点："><a href="#缺点：" class="headerlink" title="- 缺点："></a>- 缺点：</h1><ol><li>因为hexo是基于nodo.js的，所以生成文章需要搭建环境才能运行。解决方案——通过Daocloud实现hexo博客的持续集成，再部署完持续集成后，只需要上传自己编辑好的md文档就可以触发Daocloud运行流程，自动生成html网页并部署到网站空间。</li></ol><ol><li>交互功能没有，《但是可以通过第三方的东西搞起来》访客只能看不能说，很多甚至连站内搜索都没有。可能也是部分博主想做个安静的作者。</li></ol><ol><li>hexo 没有原生的搜索功能 只能借助第三方去搜索这在效率上会大打折扣。</li></ol><ol><li>hexo 的环境搭建大部分是在本地运行 这意味着脱离了搭建环境的电脑 发布文章是件不可能的事情</li></ol><h1 id="总结："><a href="#总结：" class="headerlink" title="- 总结："></a>- 总结：</h1><ol><li>hexo或许有诸多的不好的地方，但是我想要的就是简洁的它，期望在这个快速发展的时代，能够好好的去享受阅读带来的安静。</li></ol>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;  一直一来都想弄一个博客，来记录自己想记录的地方，前前后后用过很多的程序，但是基本上都是只要搞成了样子就会放任不管了，从没有认认真真的去看待过自己建立博客的初衷。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="随笔" scheme="https://blog.xiaowuweb.cn/categories/%E9%9A%8F%E7%AC%94/"/>
-    
-    
-      <category term="..." scheme="https://blog.xiaowuweb.cn/tags//"/>
-    
-      <category term="hexo优点" scheme="https://blog.xiaowuweb.cn/tags/hexo%E4%BC%98%E7%82%B9/"/>
-    
-      <category term="hexo缺点" scheme="https://blog.xiaowuweb.cn/tags/hexo%E7%BC%BA%E7%82%B9/"/>
     
   </entry>
   
