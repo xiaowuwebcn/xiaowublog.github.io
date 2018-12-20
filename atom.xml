@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.xiaowuweb.cn/"/>
-  <updated>2018-12-19T14:56:21.899Z</updated>
+  <updated>2018-12-20T06:47:11.953Z</updated>
   <id>https://blog.xiaowuweb.cn/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://blog.xiaowuweb.cn/2018/12/19/jianzhan-seo/"/>
     <id>https://blog.xiaowuweb.cn/2018/12/19/jianzhan-seo/</id>
     <published>2018-12-19T14:10:29.922Z</published>
-    <updated>2018-12-19T14:56:21.899Z</updated>
+    <updated>2018-12-20T06:47:11.953Z</updated>
     
-    <content type="html"><![CDATA[<p>  不知道是什么原因，我的上一篇文章竟然不显示。我也是醉了。但是没有关系，咱们还是有办法可以看的。在此附上地址：<a href="https://xiaowuwebcn.github.io/2018/12/19/jianzhan-themes1/" title="wordpress主题的汉化与设置-建站篇七" target="_blank" rel="noopener">wordpress主题的汉化与设置-建站篇七</a></p><a id="more"></a><p>  不知道是什么原因，我的上一篇文章竟然不显示。我也是醉了。但是没有关系，咱们还是有办法可以看的。在此附上地址：<a href="https://xiaowuwebcn.github.io/2018/12/19/jianzhan-themes1/" title="wordpress主题的汉化与设置-建站篇七" target="_blank" rel="noopener">wordpress主题的汉化与设置-建站篇七</a></p><p>  这一篇文章咱们主要说的是如何优化 <a href="http://www.xiaowuweb.top" target="_blank" rel="noopener">www.xiaowuweb.top</a> </p><h2 id="固定链接优化"><a href="#固定链接优化" class="headerlink" title="固定链接优化"></a>固定链接优化</h2><p>  首先第一个就是链接的网址，附图：<br><img src="/2018/12/19/jianzhan-seo/seo.jpg" alt="wordpress优化-建站篇八"></p><p>  这个竟然会有这么多的无用的东西，坚决要干掉它。</p><p>  这个是需要打开网站的管理后台，在左侧找到《设置》里的“固定链接”。并且设置。</p><p>  这是我在网上搜的一些比较好的链接结构。</p><p>1、/%year%/%monthnum%/%day%/%postname%/</p><p>2、/%year%/%monthnum%/%postname%/</p><p>3、/%year%/%monthnum%/%day%/%postname%.html</p><p>4、/%year%/%monthnum%/%postname%.html</p><p>5、/%category%/%postname%.html</p><p>6、/%post_id%.html</p><p>7、/%post_id%/</p><p>8、/%postname%/</p><p>9、/%postname%.html</p><p>我自己更倾向于简短的，所以我选择了 第六个，也就是 /%post_id%.html 附图：<br><img src="/2018/12/19/jianzhan-seo/seo1.jpg" alt="wordpress优化-建站篇八"></p><p>优化后的效果，附图：<br><img src="/2018/12/19/jianzhan-seo/seo-1.jpg" alt="wordpress优化-建站篇八"></p><p>别忘记保存哦。</p><h2 id="WP-Super-Cache缓存插件"><a href="#WP-Super-Cache缓存插件" class="headerlink" title="WP Super Cache缓存插件"></a>WP Super Cache缓存插件</h2><p>安装缓存插件-WP Super Cache</p><p>  在左侧的《插件》里寻找 WP Super Cache 并且安装，附图：</p><p><img src="/2018/12/19/jianzhan-seo/seo2.jpg" alt="wordpress优化-建站篇八"></p><p>安装好 WP Super Cache好之后别忘记了《启用》，在设置一下WP Super Cache，如果不会设置的话。我就不废话了，正好我在百度经验这里找了一篇非常详细的教程，我直接双手奉上，这样我可以少打点字了，嘿嘿。</p><p>  附上地址：<a href="https://jingyan.baidu.com/article/54b6b9c0877b3c2d583b47b6.html" target="_blank" rel="noopener">https://jingyan.baidu.com/article/54b6b9c0877b3c2d583b47b6.html</a></p><p>  这一篇文章，就写到这里吧。天不早了，我要睡觉喽。</p>]]></content>
+    <content type="html"><![CDATA[<p>  不知道是什么原因，我的上一篇文章竟然不显示。我也是醉了。但是没有关系，咱们还是有办法可以看的。在此附上地址：<a href="https://xiaowuwebcn.github.io/2018/12/19/jianzhan-themes1/" title="wordpress主题的汉化与设置-建站篇七" target="_blank" rel="noopener">wordpress主题的汉化与设置-建站篇七</a></p><a id="more"></a><p>  不知道是什么原因，我的上一篇文章竟然不显示。我也是醉了。但是没有关系，咱们还是有办法可以看的。在此附上地址：<a href="https://xiaowuwebcn.github.io/2018/12/19/jianzhan-themes1/" title="wordpress主题的汉化与设置-建站篇七" target="_blank" rel="noopener">wordpress主题的汉化与设置-建站篇七</a></p><p>  这一篇文章咱们主要说的是如何优化 <a href="http://www.xiaowuweb.top" target="_blank" rel="noopener">www.xiaowuweb.top</a> </p><h2 id="固定链接优化"><a href="#固定链接优化" class="headerlink" title="固定链接优化"></a>固定链接优化</h2><p>  首先第一个就是链接的网址，附图：<br><img src="/2018/12/19/jianzhan-seo/seo.jpg" alt="wordpress优化-建站篇八"></p><p>  这个竟然会有这么多的无用的东西，坚决要干掉它。</p><p>  这个是需要打开网站的管理后台，在左侧找到《设置》里的“固定链接”。并且设置。</p><p>  这是我在网上搜的一些比较好的链接结构。</p><p>1、/%year%/%monthnum%/%day%/%postname%/</p><p>2、/%year%/%monthnum%/%postname%/</p><p>3、/%year%/%monthnum%/%day%/%postname%.html</p><p>4、/%year%/%monthnum%/%postname%.html</p><p>5、/%category%/%postname%.html</p><p>6、/%post_id%.html</p><p>7、/%post_id%/</p><p>8、/%postname%/</p><p>9、/%postname%.html</p><p>我自己更倾向于简短的，所以我选择了 第六个，也就是 /%post_id%.html 附图：<br><img src="/2018/12/19/jianzhan-seo/seo1.jpg" alt="wordpress优化-建站篇八"></p><p>优化后的效果，附图：<br><img src="/2018/12/19/jianzhan-seo/seo-1.jpg" alt="wordpress优化-建站篇八"></p><p>别忘记保存哦。</p><h2 id="WP-Super-Cache缓存插件"><a href="#WP-Super-Cache缓存插件" class="headerlink" title="WP Super Cache缓存插件"></a>WP Super Cache缓存插件</h2><p>安装缓存插件-WP Super Cache</p><p>  在左侧的《插件》里寻找 WP Super Cache 并且安装，附图：</p><p><img src="/2018/12/19/jianzhan-seo/seo2.jpg" alt="wordpress优化-建站篇八"></p><p>安装好 WP Super Cache好之后别忘记了《启用》，在设置一下WP Super Cache，如果不会设置的话。我就不废话了，正好我在百度经验这里找了一篇非常详细的教程，我直接双手奉上，这样我可以少打点字了，嘿嘿。</p><p>  附上地址：<a href="https://jingyan.baidu.com/article/54b6b9c0877b3c2d583b47b6.html" target="_blank" rel="noopener">https://jingyan.baidu.com/article/54b6b9c0877b3c2d583b47b6.html</a></p><p>  这一篇文章，就写到这里吧。</p><hr><p>建站的文章就写到这里吧。毕竟在往深了写，估计会耽误了看文章的人，毕竟做SEO深度优化方面，我不敢贸然的去写。不怕我写的对，就怕我写的不对而耽误了大伙，这就会很尴尬了。</p><p>在这里我奉上这个网站的原网址：<a href="https://themeforest.net/item/axen-personal-portfolio-wordpress-theme/21199994" target="_blank" rel="noopener">https://themeforest.net/item/axen-personal-portfolio-wordpress-theme/21199994</a></p><p>我利用这个WP主题搭建的网址是：<a href="https://www.xiaowuweb.top" target="_blank" rel="noopener">https://www.xiaowuweb.top</a></p><p>各位看官，可以看看这两个的不同。</p>]]></content>
     
     <summary type="html">
     
@@ -394,11 +394,11 @@
       <category term="随笔" scheme="https://blog.xiaowuweb.cn/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
-      <category term="..." scheme="https://blog.xiaowuweb.cn/tags//"/>
-    
       <category term="B站" scheme="https://blog.xiaowuweb.cn/tags/B%E7%AB%99/"/>
     
       <category term="Sofronio" scheme="https://blog.xiaowuweb.cn/tags/Sofronio/"/>
+    
+      <category term="..." scheme="https://blog.xiaowuweb.cn/tags//"/>
     
   </entry>
   
@@ -446,11 +446,11 @@
       <category term="科技" scheme="https://blog.xiaowuweb.cn/categories/%E7%A7%91%E6%8A%80/"/>
     
     
+      <category term="..." scheme="https://blog.xiaowuweb.cn/tags//"/>
+    
       <category term="阿里巴巴" scheme="https://blog.xiaowuweb.cn/tags/%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4/"/>
     
       <category term="张勇" scheme="https://blog.xiaowuweb.cn/tags/%E5%BC%A0%E5%8B%87/"/>
-    
-      <category term="..." scheme="https://blog.xiaowuweb.cn/tags//"/>
     
   </entry>
   
