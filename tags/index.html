@@ -160,6 +160,20 @@
   <article class="posts-collapse">
     <header>
       <h2>
+        <a href="/2019/01/22/2019-yuanwang/">
+          <span>2019年的小愿望</span>
+        </a>
+      </h2>
+      <div class="post-meta">
+        01-22
+      </div>
+    </header>
+  </article>
+  
+  
+  <article class="posts-collapse">
+    <header>
+      <h2>
         <a href="/2019/01/14/diaoyan-github/">
           <span>通过V2EX发帖调研github针对中国的优化建议与回帖的回答</span>
         </a>
@@ -280,20 +294,6 @@
       <h2>
         <a href="/2018/11/22/b-yingpan/">
           <span>买到假硬盘竟然追回9136元？退一赔三315投诉及民事起诉全流程</span>
-        </a>
-      </h2>
-      <div class="post-meta">
-        11-22
-      </div>
-    </header>
-  </article>
-  
-  
-  <article class="posts-collapse">
-    <header>
-      <h2>
-        <a href="/2018/11/22/ganxieyipian/">
-          <span>感谢群里的大佬</span>
         </a>
       </h2>
       <div class="post-meta">
@@ -461,7 +461,15 @@ document.querySelector(".back-to-top").addEventListener("click", backToTop, fals
   </body>
 
 </html>
+>
 
+<script>
+const updateIconToTop = percent => {
+  let dom = document.querySelector(".back-to-top span span");
+  dom.innerText = percent;
+  if(percent < 1) {
+    document.querySelector(".back-to-top").className = "back-to-top hidden";
+  } else {
     document.querySelector(".back-to-top").className = "back-to-top";
   }
 }
