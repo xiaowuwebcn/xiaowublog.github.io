@@ -160,6 +160,20 @@
   <article class="posts-collapse">
     <header>
       <h2>
+        <a href="/2019/01/23/gequ-zuihouyizhiwu/">
+          <span>歌曲《Just One Last Dance》</span>
+        </a>
+      </h2>
+      <div class="post-meta">
+        01-23
+      </div>
+    </header>
+  </article>
+  
+  
+  <article class="posts-collapse">
+    <header>
+      <h2>
         <a href="/2019/01/22/2019-yuanwang/">
           <span>2019年的小愿望</span>
         </a>
@@ -288,20 +302,6 @@
     </header>
   </article>
   
-  
-  <article class="posts-collapse">
-    <header>
-      <h2>
-        <a href="/2018/11/22/b-yingpan/">
-          <span>买到假硬盘竟然追回9136元？退一赔三315投诉及民事起诉全流程</span>
-        </a>
-      </h2>
-      <div class="post-meta">
-        11-22
-      </div>
-    </header>
-  </article>
-  
 </div>
   <nav class="page-navigation">
     
@@ -378,90 +378,6 @@ setTimeout(updateTimeStr, 500);
     <i class="iconfont icon-60"></i><span></span>%
   </span>
 </div>
-
-<script>
-const updateIconToTop = percent => {
-  let dom = document.querySelector(".back-to-top span span");
-  dom.innerText = percent;
-  if(percent < 1) {
-    document.querySelector(".back-to-top").className = "back-to-top hidden";
-  } else {
-    document.querySelector(".back-to-top").className = "back-to-top";
-  }
-}
-
-const handleScoll = () => {
-  let isRunning = false;
-  return () => {
-    if (isRunning) return;
-    isRunning = true;
-    window.requestAnimationFrame(timestamp => {
-      let scrollTop =
-          document.documentElement.scrollTop || document.body.scrollTop,
-        scrollHeight =
-          document.documentElement.scrollHeight ||
-          document.body.scrollHeight,
-        clientHeight =
-          document.documentElement.clientHeight ||
-          document.body.clientHeight;
-      isRunning = false;
-      if (scrollTop <= 1) {
-        updateIconToTop(0);
-        return;
-      }
-      if (scrollTop + clientHeight >= scrollHeight) {
-        updateIconToTop(100);
-      } else {
-        updateIconToTop(parseInt(
-          100 * scrollTop / (scrollHeight - clientHeight),
-          10
-        ));
-      }
-    });
-  };
-}
-
-const backToTop = () => {
-  let scrollTop =
-      document.documentElement.scrollTop || document.body.scrollTop,
-    delay = 10,
-    time = 200;
-  if (scrollTop <= 20) {
-    document.documentElement.scrollTop = 0;
-    document.body.scrollTop = 0;
-    return;
-  }
-  let step = Math.ceil(scrollTop * delay / time);
-  let timer = setInterval(() => {
-    scrollTop =
-      document.documentElement.scrollTop || document.body.scrollTop;
-    if (scrollTop - step <= 0) {
-      document.documentElement.scrollTop = 0;
-      document.body.scrollTop = 0;
-      clearInterval(timer);
-    } else {
-      document.documentElement.scrollTop = scrollTop - step;
-      document.body.scrollTop = scrollTop - step;
-    }
-  }, delay);
-}
-
-document.addEventListener("scroll", handleScoll(), false);
-
-document.querySelector(".back-to-top").addEventListener("click", backToTop, false);
-
-</script>
-
-      <aside id="sidebar">
-        <p id="sidebar-header"></p>
-        <ol id="sidebar-toc"></ol>
-      </aside>
-
-    </div>
-  </body>
-
-</html>
->
 
 <script>
 const updateIconToTop = percent => {
