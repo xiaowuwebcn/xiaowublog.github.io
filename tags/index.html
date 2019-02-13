@@ -461,6 +461,9 @@ document.querySelector(".back-to-top").addEventListener("click", backToTop, fals
   </body>
 
 </html>
+ / 3600),
+    minute = Math.floor(((offset % 86400) % 3600) / 60),
+    second = Math.floor(((offset % 86400) % 3600) % 60);
   timeToNowDOM.innerHTML =
     day + "天" + hour + "小时" + minute + "分钟" + second + "秒";
   setTimeout(updateTimeStr, 500);
