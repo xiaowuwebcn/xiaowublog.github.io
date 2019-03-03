@@ -461,7 +461,25 @@ document.querySelector(".back-to-top").addEventListener("click", backToTop, fals
   </body>
 
 </html>
- / 3600),
+JavaScript"></script>
+    <div id="cc-myssl-id">
+      <a href="https://myssl.com/blog.xiaowuweb.cn?from=mysslid"><img src="https://static.myssl.com/res/images/myssl-id3.png" alt="" style="max-height:50px;display:block;margin:0 auto"></a>
+    </div>
+    <br>
+  </p>
+</footer>
+
+<script>
+const timeToNowDOM = document.querySelector("#time-to-now");
+const startTimestamp = new Date(2018, 11, 16, 23, 58).getTime();
+
+const updateTimeStr = () => {
+  let offset = parseInt(
+      (new Date().getTime() - startTimestamp) / 1000,
+      10
+    ),
+    day = Math.floor(offset / 86400),
+    hour = Math.floor((offset % 86400) / 3600),
     minute = Math.floor(((offset % 86400) % 3600) / 60),
     second = Math.floor(((offset % 86400) % 3600) % 60);
   timeToNowDOM.innerHTML =
