@@ -461,6 +461,17 @@ document.querySelector(".back-to-top").addEventListener("click", backToTop, fals
   </body>
 
 </html>
+��示
+      }
+    });
+    isMathjaxConfig = true; // 
+  };
+  if (isMathjaxConfig === false) { // 如果：没有配置MathJax
+    initMathjaxConfig();
+  }
+  window.MathJax.Hub.Queue(["Typeset", MathJax.Hub, document.getElementById('app')]);
+  
+</script>
 <footer>
   <p class="site-info">
     博客已萌萌哒运行<span id="time-to-now"></span><span class="my-face">(●'◡'●)ﾉ♥</span>
