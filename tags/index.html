@@ -160,6 +160,20 @@
   <article class="posts-collapse">
     <header>
       <h2>
+        <a href="/2019/10/11/weilai1/">
+          <span>那些被机器所取代的工作</span>
+        </a>
+      </h2>
+      <div class="post-meta">
+        10-11
+      </div>
+    </header>
+  </article>
+  
+  
+  <article class="posts-collapse">
+    <header>
+      <h2>
         <a href="/2019/09/13/zhongqiu/">
           <span>中秋节快乐</span>
         </a>
@@ -282,20 +296,6 @@
     </header>
   </article>
   
-  
-  <article class="posts-collapse">
-    <header>
-      <h2>
-        <a href="/2019/01/14/diaoyan-github/">
-          <span>通过V2EX发帖调研github针对中国的优化建议与回帖的回答</span>
-        </a>
-      </h2>
-      <div class="post-meta">
-        01-14
-      </div>
-    </header>
-  </article>
-  
 </div>
   <nav class="page-navigation">
     
@@ -309,153 +309,6 @@
   let isMathjaxConfig = false; // 防止重复调用Config，造成性能损耗
 
   const initMathjaxConfig = () => {
-    if (!window.MathJax) {
-      return;
-    }
-    window.MathJax.Hub.Config({
-      showProcessingMessages: false, //关闭js加载过程信息
-      messageStyle: "none", //不显示信息
-      jax: ["input/TeX", "output/HTML-CSS"],
-      tex2jax: {
-        inlineMath: [["$", "$"], ["\\(", "\\)"]], //行内公式选择符
-        displayMath: [["$$", "$$"], ["\\[", "\\]"]], //段内公式选择符
-        skipTags: ["script", "noscript", "style", "textarea", "pre", "code", "a"] //避开某些标签
-      },
-      "HTML-CSS": {
-        availableFonts: ["STIX", "TeX"], //可选字体
-        showMathMenu: false //关闭右击菜单显示
-      }
-    });
-    isMathjaxConfig = true; // 
-  };
-  if (isMathjaxConfig === false) { // 如果：没有配置MathJax
-    initMathjaxConfig();
-  }
-  window.MathJax.Hub.Queue(["Typeset", MathJax.Hub, document.getElementById('app')]);
-  
-</script>
-<footer>
-  <p class="site-info">
-    博客已萌萌哒运行<span id="time-to-now"></span><span class="my-face">(●'◡'●)ﾉ♥</span>
-    <br>
-    Theme - <a href="https://github.com/dongyuanxin/theme-bmw">BMW</a> | Made With 💗 | Powered by <a href="https://godbmw.com/">GodBMW</a> | 💗 托管于 <a href="https://dev.tencent.com/">腾讯云开发者平台</a>  <a href="https://github.com/"> github </a> 💗 |<script src="https://s5.cnzz.com/z_stat.php?id=1275569036&web_id=1275569036" language="JavaScript"></script>
-    <div id="cc-myssl-id">
-      <a href="https://myssl.com/blog.xiaowuweb.cn?from=mysslid"><img src="https://static.myssl.com/res/images/myssl-id3.png" alt="" style="max-height:50px;display:block;margin:0 auto"></a>
-    </div>
-    <br>
-  </p>
-</footer>
-
-<script>
-const timeToNowDOM = document.querySelector("#time-to-now");
-const startTimestamp = new Date(2018, 11, 16, 23, 58).getTime();
-
-const updateTimeStr = () => {
-  let offset = parseInt(
-      (new Date().getTime() - startTimestamp) / 1000,
-      10
-    ),
-    day = Math.floor(offset / 86400),
-    hour = Math.floor((offset % 86400) / 3600),
-    minute = Math.floor(((offset % 86400) % 3600) / 60),
-    second = Math.floor(((offset % 86400) % 3600) % 60);
-  timeToNowDOM.innerHTML =
-    day + "天" + hour + "小时" + minute + "分钟" + second + "秒";
-  setTimeout(updateTimeStr, 500);
-}
-
-setTimeout(updateTimeStr, 500);
-</script>
-
-      <div class="back-to-top hidden">
-  <span>
-    <i class="iconfont icon-60"></i><span></span>%
-  </span>
-</div>
-
-<script>
-const updateIconToTop = percent => {
-  let dom = document.querySelector(".back-to-top span span");
-  dom.innerText = percent;
-  if(percent < 1) {
-    document.querySelector(".back-to-top").className = "back-to-top hidden";
-  } else {
-    document.querySelector(".back-to-top").className = "back-to-top";
-  }
-}
-
-const handleScoll = () => {
-  let isRunning = false;
-  return () => {
-    if (isRunning) return;
-    isRunning = true;
-    window.requestAnimationFrame(timestamp => {
-      let scrollTop =
-          document.documentElement.scrollTop || document.body.scrollTop,
-        scrollHeight =
-          document.documentElement.scrollHeight ||
-          document.body.scrollHeight,
-        clientHeight =
-          document.documentElement.clientHeight ||
-          document.body.clientHeight;
-      isRunning = false;
-      if (scrollTop <= 1) {
-        updateIconToTop(0);
-        return;
-      }
-      if (scrollTop + clientHeight >= scrollHeight) {
-        updateIconToTop(100);
-      } else {
-        updateIconToTop(parseInt(
-          100 * scrollTop / (scrollHeight - clientHeight),
-          10
-        ));
-      }
-    });
-  };
-}
-
-const backToTop = () => {
-  let scrollTop =
-      document.documentElement.scrollTop || document.body.scrollTop,
-    delay = 10,
-    time = 200;
-  if (scrollTop <= 20) {
-    document.documentElement.scrollTop = 0;
-    document.body.scrollTop = 0;
-    return;
-  }
-  let step = Math.ceil(scrollTop * delay / time);
-  let timer = setInterval(() => {
-    scrollTop =
-      document.documentElement.scrollTop || document.body.scrollTop;
-    if (scrollTop - step <= 0) {
-      document.documentElement.scrollTop = 0;
-      document.body.scrollTop = 0;
-      clearInterval(timer);
-    } else {
-      document.documentElement.scrollTop = scrollTop - step;
-      document.body.scrollTop = scrollTop - step;
-    }
-  }, delay);
-}
-
-document.addEventListener("scroll", handleScoll(), false);
-
-document.querySelector(".back-to-top").addEventListener("click", backToTop, false);
-
-</script>
-
-      <aside id="sidebar">
-        <p id="sidebar-header"></p>
-        <ol id="sidebar-toc"></ol>
-      </aside>
-
-    </div>
-  </body>
-
-</html>
-) => {
     if (!window.MathJax) {
       return;
     }
